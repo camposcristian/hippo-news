@@ -1,0 +1,22 @@
+$primary-color: #000;
+
+.footer {
+    width: 100%;
+    padding: 8vmin;
+    background: $primary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+        display: inline;
+    }
+
+    span {
+        color: white;
+    }
+}
